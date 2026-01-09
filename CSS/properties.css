@@ -1,0 +1,27 @@
+/* color - can take hex,rgb and hsl values */
+
+/* hex */
+p{
+    color: #10f;
+}
+
+/* rgb */
+p{
+    color: rgb(100, 0, 127);
+}
+
+/* hsl */
+p{
+    color: hsl(15, 82%, 56%);
+}
+
+/* font-family , font-size , font-weight are also some typography  + text-align*/
+
+/* image height and width  */
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+/* while using auto it will scale in accordance with the other attribute keeping the scale same */
