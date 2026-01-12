@@ -1,5 +1,6 @@
 #subsection{
     color: blue;
+    background-color: yellow;
 }
 
 .main .list{
@@ -7,3 +8,7 @@
 }
 
 /* div has more priority has it is gives more accurate input for it */
+
+.main #subsection{
+    color: black;
+}
