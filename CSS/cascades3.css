@@ -6,4 +6,8 @@
     font-size: 24px;
 }
 
+.class > .second-class{
+    font-size: 36px;
+}
+
 /* since this both match the same element the later one is taken into account */
