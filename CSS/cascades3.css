@@ -1,0 +1,9 @@
+.class.second-class{   /*same element --> both classes*/
+    font-size: 12px;
+}
+
+.class .second-class{   /*class inside the class */
+    font-size: 24px;
+}
+
+/* since this both match the same element the later one is taken into account */
