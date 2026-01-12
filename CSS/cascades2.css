@@ -1,0 +1,9 @@
+#subsection{
+    color: blue;
+}
+
+.main .list{
+    color: red;
+}
+
+/* div has more priority has it is gives more accurate input for it */
