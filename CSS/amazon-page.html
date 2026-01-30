@@ -10,30 +10,51 @@
             color: rgb(0,118,0);
         }
 
-        a{
+        .home{
             color: rgb(0, 113, 113);
         }
 
+        .home:hover{
+            color: #d6a30a;
+        }
+
+
         .cart{
-            background-color: rgb(255, 216, 20);
+            background-color: #ffd814;
             border-radius: 60px;
             border: none;
             height: 33px;
             width: 110px;
             margin-right: 8px;
+            transition: background-color 0.15s opacity 0.15s; 
+        }
+
+        .cart:hover{
+            background-color:#e1c01a ;
+        }
+        .cart:active{
+            opacity: 0.6;
         }
 
         .buy{
-            background-color: rgb(255, 164, 28);
+            background-color: #ffa41c;
             border: none;
             height: 33px;
             width: 110px;
             border-radius: 60px;
+            transition: background-color 0.15s opacity 0.15s;
+        }
+
+        .buy:hover{
+            background-color: #dc9222;
+        }
+        .buy:active{
+            opacity: 0.6;
         }
     </style>
 </head>
 <body>
-    <a href="http://amazon.in/">Back to Amazon</a>
+    <a href="http://amazon.in/" class="home">Back to Amazon</a>
     <br>
     <h3>Nike Black Running Shoes</h2>
     <p class="price">$39 - in stock.</p>
