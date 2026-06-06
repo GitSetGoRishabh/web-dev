@@ -1,0 +1,24 @@
+#rectangle{
+    height: 200px;
+    width: 300px;
+    background-color: #D70000;
+    position: relative;
+}
+
+#blue{
+    height: 100px;
+    width: 300px;
+    background-color: #002868;
+    position: absolute;
+    top: 50px;
+}
+
+#white{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
