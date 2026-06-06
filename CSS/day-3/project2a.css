@@ -1,0 +1,21 @@
+#rectangle{
+    height: 200px;
+    width: 320px;
+    background-color: #005293;
+    position: relative;
+}
+
+#strip1{
+    height: 200px;
+    width: 40px;
+    background-color: #fecb00;
+    position: absolute;
+    left: 100px;
+}
+#strip2{
+    height: 40px;
+    width: 320px;
+    background-color: #fecb00;
+    position: absolute;
+    top: 80px;
+}
