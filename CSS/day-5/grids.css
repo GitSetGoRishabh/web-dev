@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    background-color: white;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.two{
+    background-color: green;
+}
+
+.three{
+    background-color: yellow;
+
+}
+
+.four{
+    background-color: brown;
+}
