@@ -1,0 +1,36 @@
+.container{
+    background-color: white;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-items: center;      /*cross axis pe kaam krega*/
+    justify-content: center;  /*main axis pe kaam krega*/
+    flex-wrap: wrap;          /*makes website responsive*/
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
