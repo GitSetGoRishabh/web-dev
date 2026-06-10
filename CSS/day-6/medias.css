@@ -1,0 +1,15 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    font-size: 40px;
+}
+
+@media  screen and (max-width:600px){
+    .container{
+        height: 250px;
+        width: 250px;
+        background-color: aquamarine;
+        font-size: 25px;
+    }
+}
